@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    flex-wrap: wrap;
+}
+ 
+/* --------------------------menu */
+.header-h1 {
+    font-size: 30px;
+    color: #215700;
+}
+ 
+.header-page {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+ 
+.header-menu ul {
+    font-size: 17px;
+    display: flex;
+    gap: 20px;
+}
+/* tirando a bolinha do link */
+.link{
+    list-style: none;
+}
+ 
+ 
+/* alterando o link */
+a {
+    text-decoration: none;
+    color: #000000;
+    transition: .5s;
+}
+ 
+/* --------------------------container geral */
+.container{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+   
+    background-repeat: no-repeat;
+    /* para ocupar a tela toda */
+    background-size: cover;
+    background-position: 50%;
+   /* para movimentar */
+    background-attachment: fixed;
+    padding: 20px;
+}
+ 
+ 
+/* -----------------------primeira seção */
+.divpai1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.caixa{
+    margin: 20px;
+    width: 40%;
+    height: 350px;
+    /* border: #000000 solid; */
+   
+}
+ 
+.titulo1{
+    color: #000000;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.cor{
+    color: #215700
+}
+ 
+.divtexto{
+    padding: 10px;
+}
+ 
+.paragrafo{
+    font-size: 15px;
+    color: #000000;
+    margin-top: 10px;
+}
+.divimg{
+    width: 45%;
+    height: 400px;
+    border-radius: 2%;
+    border: rgb(165, 128, 128);
+}
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2%;
+}
+ 
+/* -------------------------segunda seção */
+.divpaii2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0px;
+    background-color: #58c0177e;
+}
+ 
+.boxx2{
+    width: 45%;
+    height: 300px;
+    /* border: 1px solid #ffffff;   */
+    gap: 20px;
+    border-radius: 7px;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+ 
+.divimgg2{
+    width: 45%;
+    height: 500px;
+}
+ 
+img {
+    width: 100%;
+    height: 100;
+}
+ 
+.texto{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+ 
+.textobolinha{
+    text-align: left;
+}
+ 
+.separar{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+ 
+/* terceira------- */
+ 
+.titulo3{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color:#000000;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+ 
+.divpai3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 0px;
+}
+ 
+.box2{
+    width: 20%;
+    height: 300px;
+    border: 1px solid #ffffff;
+    gap: 20px;
+    border-radius: 7px;
+    padding: 0px;
+    background-color: #106e1c70;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+ 
+.icon{
+    font-size: 50px;
+    transition: 10s;
+}
+.icon:hover {
+    transform: rotate(1440deg);
+}
+ 
+.paragrafo3{
+    font-size:13px ;
+}
+ 
+/* quarta---------- */
+ 
+.fundo4{
+    background-color: #58c0177e;
+    /* background-image:linear-gradient(rgba(77, 67, 67, 0.3), rgba(80, 69, 69, 0.6)), url(/imagem/pexels-math-21393\ \(1\).jpg); */
+    background-repeat: no-repeat;
+    /* para ocupar a tela toda */
+    background-size: cover;
+    background-position: 50%;
+   /* para movimentar */
+    background-attachment: fixed;
+}
+ 
+.box {
+    width: 16%;
+    height: 250px;
+    /* border: 1px solid #ffffff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: #47975270;
+}
+ 
+.titulo4{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color:#ffffff;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+   
+ 
+}
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+ 
+.h3{
+    display: flex;
+    align-items: center;
+}
+ 
+ 
+ 
+ 
+/* rodape------ */
+.rodape{
+    width: 100%;
+    height: 90px;
+    background-color: #ffffffbe;
+}
+ 
+.titulo5{
+    text-align: center;
+    margin-top: 40px;
+    color:#215700;
+}
